@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'FireFly.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'MatchSystem',
-        'HOST': 'mongodb://localhost:27017/',
+        'NAME': 'djongo',
+        'CLIENT': {
+            'host': 'mongodb+srv://FireFlyDataBase:otiVHlaVe4WXS20W@cluster0.z4xc0fm.mongodb.net/test',
+            'username': 'FireFlyDataBase',
+            'password': 'otiVHlaVe4WXS20W'
+        }
     }
 }
 
