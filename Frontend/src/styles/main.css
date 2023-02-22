@@ -1,0 +1,14 @@
+.Body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.Header {
+    min-height: 50px;
+}
+
+.Footer {
+    min-height: 50px;
+}
