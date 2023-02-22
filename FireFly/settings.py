@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Match',
+    'Accounts',
+    
 ]
 
 MIDDLEWARE = [
@@ -66,7 +69,6 @@ TEMPLATES = [
         },
     },
 ]
-
 WSGI_APPLICATION = 'FireFly.wsgi.application'
 
 
