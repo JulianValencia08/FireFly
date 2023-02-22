@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 """FireFly URL Configuration
-=======
-"""FireFlyProject URL Configuration
->>>>>>> 3a5c1bcd5bc2766a15bba2112a510eff1d956780
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
