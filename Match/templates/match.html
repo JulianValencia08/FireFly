@@ -7,6 +7,9 @@
     <title>FireFly</title>
 </head>
 <body>
-    <button>Match</button>
+    {% for user in usuarios %}
+    <h3>Hiciste match con los usuarios: {{user.username}}</h3>
+
+    {% endfor %}
 </body>
 </html>

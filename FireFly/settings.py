@@ -57,7 +57,7 @@ ROOT_URLCONF = 'FireFly.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR,'FireFly/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -106,6 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+AUTH_USER_MODEL = 'Accounts.Usuario'
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
